@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <item android:drawable="@drawable/bg1"
+          android:duration="2000"/>
+    <item android:drawable="@drawable/bg2"
+          android:duration="2000"/>
+    <item android:drawable="@drawable/bg3"
+          android:duration="2000"/>
+    <item android:drawable="@drawable/bg4"
+          android:duration="2000"/>
+    <item android:drawable="@drawable/bg5"
+          android:duration="2000"/>
+</animation-list>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<litepal>
+    <dbname value="Ranking"></dbname>
+    <version value="1"></version>
+
+    <list>
+        <mapping class="com.example.hannoi.RankPrimary"></mapping>
+        <mapping class="com.example.hannoi.RankIntermediate"></mapping>
+        <mapping class="com.example.hannoi.RankSenior"></mapping>
+    </list>
+</litepal>
