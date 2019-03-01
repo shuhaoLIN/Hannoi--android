@@ -408,6 +408,12 @@ public class MainActivity extends AppCompatActivity {
         tower.releseDiscAndPoint();
         tower = new Tower(towerName, this, MainLayout, creenWidth, creenHeight,N);
         int discHeight = 360 / N;
+        if(N == 4){
+            discHeight = (creenHeight - 400) / N;
+        }else if(N == 5){
+            discHeight = (creenHeight - 300) / N;
+        }
+
         tower.setDiscHeight(discHeight);  //
         tower.setMaxDiscWidth((creenWidth - 400) / 3 );   // 最大 除以三是因为分成三个柱子:减去400，是因为分成三个柱子，然后有4个空隙每一个400.
         tower.setMinDiscWidth((creenWidth - 400) / 3 / 4);  //最小
